@@ -5,7 +5,7 @@
     <div class="row justify-content-center">
         <div class="col-md-8">
             <div class="card">
-                <div class="card-header">{{ __('Select Chapter') }}</div>
+                <div class="card-header"><b>{{ __('Select Chapter') }}</b></div>
 
                 <div class="card-body">
                     @if (session('status'))
@@ -18,8 +18,8 @@
                         <form method="POST" action="{{ route('tutorial') }}">
                             @csrf
                             <input type="hidden" name="_method" value="GET">
-                            <button class="btn btn-outline-primary chapter-button" type="submit">
-                                Tutorial
+                            <button class="btn btn-outline-primary border-3 chapter-button" type="submit">
+                                Prologue
                             </button>
                         </form>
                     </div>
