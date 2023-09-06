@@ -6,5 +6,5 @@ Register with
 - You can register with any kind of email
 
 Login with <br>
-E: admin@admin.com
+E: admin@admin.com<br>
 P: admin123
